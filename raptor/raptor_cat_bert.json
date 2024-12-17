@@ -1,0 +1,13 @@
+{
+    "FWD MHA Dense" : ["MHAFWDdense"],
+    "FWD MHA FA" : ["MHAFWDfa"],
+    "FWD SelfOutput Dense" : ["SelfOutputFWDdense"],
+    "FWD SelfOutput Add-Dropout" : ["SelfOutputFWDdropoutAdd"],
+    "FWD SelfOutput Layernorm" : ["SelfOutputFWDLayerNorm"],
+    "FWD Intermediate Dense" : ["IntermediateFWDDense"],
+    "FWD Intermediate Activation" : ["IntermediateFWDActivation"],
+    "FWD Output Dense" : ["OutputFWDdense"],
+    "FWD Output Add-Dropout" : ["OutputFWDdropoutAdd"],
+    "FWD Output Layernorm" : ["OutputFWDLayerNorm"],
+    "Linear Backward" : ["_Linear_backward"]
+}

@@ -106,9 +106,11 @@ if args.auto_roi_top:
     raptor.set_roi_from_kernel()
 
 if args.categorize: 
-    category_df = raptor.get_category_df(raptor.get_kernelseq_df())
-    print ("\nCategories:")
+    op_df = raptor.set_custom_op_df()
+    category_df = raptor.get_category_df(raptor.get_kernelseq_df(force=True, op_df=op_df))
+    print ("\nCategories: V2")
     print(category_df)
+
 
 if args.variability: 
     print ("\nVariability:")
